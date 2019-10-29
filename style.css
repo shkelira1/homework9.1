@@ -1,0 +1,54 @@
+body{
+    padding: 130px 100px;
+}
+.main{
+    box-shadow: 0px 0px 24px 4px rgba(241,241,241,1);
+    -moz-box-shadow: 0px 0px 24px 4px rgba(241,241,241,1);
+    box-shadow: 0px 0px 24px 4px rgba(241,241,241,1);
+    padding: 140px 120px;
+}
+.title{
+
+    font: 400 42px 'Playfair Display', serif;
+}
+.letter{
+    font: 400 110px 'Playfair Display', serif;
+    float: left;
+    line-height: 90px;
+    margin-right: 34px;
+}
+.text{
+    font: 300 14px 'Lato', sans-serif;
+    color: #5c5c5c;
+    margin-top: 50px;
+    line-height: 30px;
+    word-spacing: 4px;
+}
+.text:first-of-type{
+    margin-top: 40px;
+}
+.text:last-of-type{
+    margin-top: 28px;
+    font-style: italic;
+    font-size: 16px;
+}
+.top_dot{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    margin-right: 25px;
+}
+.top_dot:last-of-type{
+    margin-right: 0;
+    margin-left: 25px;
+}
+.button{
+    margin-top: 38px;
+    border: 2px solid #eaa258;
+    padding: 25px 72px;
+    font: 700 18px 'Lato', sans-serif;
+    color: #eaa258;
+    line-height: 34px;
+    background: transparent;
+    text-transform: uppercase;
+}
